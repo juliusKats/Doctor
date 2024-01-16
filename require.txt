@@ -1,0 +1,10 @@
+1. jetstream/Livewire  
+    => composer require laravel/jetstream
+    => php artisan jetstream:install livewire
+    => composer require laravel/fortify
+2. Fortify 
+3. Sanctum 
+
+=>php artisan vendor:publish --tag=jetstream-views
+=>php artisan vendor:publish --provider="Laravel\Fortify\FortifyServiceProvider"
+=>php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"

@@ -27,29 +27,29 @@ class Doctorcard extends StatelessWidget {
                 child: Image.asset('assets/doctor2.jpg',fit: BoxFit.fill,),
               ),
               
-              Flexible(
+              const Flexible(
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 20),
+                  padding: EdgeInsets.symmetric(horizontal: 10,vertical: 20),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    const Text(
+                    Text(
                       'Dr Julius',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold
                       ),
                       ),
-                      const Text(
+                      Text(
                       'Dental',
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.normal
                       ),
                       ),
-                      const Spacer(),
+                      Spacer(),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.start,
-                        children: const <Widget>[
+                        children: <Widget>[
                           Icon(
                             Icons.star_border,
                             color: Colors.yellow,
